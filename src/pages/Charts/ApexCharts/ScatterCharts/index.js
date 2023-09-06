@@ -10,7 +10,7 @@ import {
 
 
 const ScatterCharts = () => {
-    document.title="Scatter Charts | Velzon - React Admin & Dashboard Template";
+    document.title="Scatter Charts | ระบบจัดการสต็อกสินค้า";
     return (
         <React.Fragment>
             <div className="page-content">

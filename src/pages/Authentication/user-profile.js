@@ -91,7 +91,7 @@ const UserProfile = () => {
     }
   });
 
-  document.title = "Profile | Velzon - React Admin & Dashboard Template";
+  document.title = "Profile | ระบบจัดการสต็อกสินค้า";
   return (
     <React.Fragment>
       <div className="page-content mt-lg-5">

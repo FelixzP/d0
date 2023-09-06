@@ -79,7 +79,7 @@ const ListTables = () => {
         });
     });
 
-    document.title = "Listjs | Velzon - React Admin & Dashboard Template";
+    document.title = "Listjs | ระบบจัดการสต็อกสินค้า";
 
     return (
         <React.Fragment>

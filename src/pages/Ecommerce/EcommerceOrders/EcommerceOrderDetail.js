@@ -34,7 +34,7 @@ const EcommerceOrderDetail = (props) => {
     setcol3(!col3);
   }
 
-document.title ="Order Details | Velzon - React Admin & Dashboard Template";
+document.title ="Order Details | ระบบจัดการสต็อกสินค้า";
   return (
     <div className="page-content">
       <Container fluid>        

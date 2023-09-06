@@ -34,7 +34,7 @@ const FormRangeSlider = () => {
     }
   };
 
-  document.title = "Range Slider | Velzon - React Admin & Dashboard Template"
+  document.title = "Range Slider | ระบบจัดการสต็อกสินค้า"
 
   return (
     <React.Fragment>

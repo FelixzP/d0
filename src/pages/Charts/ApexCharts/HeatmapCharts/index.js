@@ -11,7 +11,7 @@ import {
 
 
 const HeatmapCharts = () => {
-    document.title="Heatmap Charts | Velzon - React Admin & Dashboard Template";
+    document.title="Heatmap Charts | ระบบจัดการสต็อกสินค้า";
     return (
         <React.Fragment>
             <div className="page-content">

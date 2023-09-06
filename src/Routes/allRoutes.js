@@ -1,36 +1,10 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 
-//Dashboard
-import DashboardAnalytics from "../pages/DashboardAnalytics";
-import DashboardEcommerce from "../pages/DashboardEcommerce";
-import DashboardProject from "../pages/DashboardProject";
-
-//Calendar
-// Email box
-import MailInbox from "../pages/EmailInbox";
-import BasicAction from "../pages/Email/EmailTemplates/BasicAction";
-import EcommerceAction from "../pages/Email/EmailTemplates/EcommerceAction";
-
-import Calendar from "../pages/Calendar";
-
-// Project
-import ProjectList from "../pages/Projects/ProjectList";
-import ProjectOverview from "../pages/Projects/ProjectOverview";
-import CreateProject from "../pages/Projects/CreateProject";
-
-//Task
-import TaskDetails from "../pages/Tasks/TaskDetails";
-import TaskList from "../pages/Tasks/TaskList";
-
 //Invoices
 import InvoiceList from "../pages/Invoices/InvoiceList";
 import InvoiceCreate from "../pages/Invoices/InvoiceCreate";
 import InvoiceDetails from "../pages/Invoices/InvoiceDetails";
-
-// Support Tickets
-import ListView from '../pages/SupportTickets/ListView';
-import TicketsDetails from '../pages/SupportTickets/TicketsDetails';
 
 // //Ecommerce Pages
 import EcommerceProducts from "../pages/Ecommerce/EcommerceProducts/index";
@@ -87,7 +61,6 @@ import FormSelect from "../pages/Forms/FormSelect/FormSelect";
 import FormEditor from "../pages/Forms/FormEditor/FormEditor";
 import CheckBoxAndRadio from "../pages/Forms/CheckboxAndRadio/CheckBoxAndRadio";
 import Masks from "../pages/Forms/Masks/Masks";
-import FileUpload from "../pages/Forms/FileUpload/FileUpload";
 import FormPickers from "../pages/Forms/FormPickers/FormPickers";
 import FormRangeSlider from "../pages/Forms/FormRangeSlider/FormRangeSlider";
 import Formlayouts from "../pages/Forms/FormLayouts/Formlayouts";
@@ -123,7 +96,6 @@ import BasicPasswReset from '../pages/AuthenticationInner/PasswordReset/BasicPas
 import Starter from '../pages/Pages/Starter/Starter';
 import SimplePage from '../pages/Pages/Profile/SimplePage/SimplePage';
 import Settings from '../pages/Pages/Profile/Settings/Settings';
-import Team from '../pages/Pages/Team/Team';
 import Timeline from '../pages/Pages/Timeline/Timeline';
 import Faqs from '../pages/Pages/Faqs/Faqs';
 import Gallery from '../pages/Pages/Gallery/Gallery';
@@ -150,8 +122,6 @@ import BasicPasswCreate from "../pages/AuthenticationInner/PasswordCreate/BasicP
 import CoverPasswCreate from "../pages/AuthenticationInner/PasswordCreate/CoverPasswCreate";
 import Offlinepage from "../pages/AuthenticationInner/Errors/Offlinepage";
 
-//APi Key
-import APIKey from "../pages/APIKey/index";
 
 //login
 import Login from "../pages/Authentication/Login";
@@ -185,16 +155,11 @@ import TermsCondition from '../pages/Pages/TermsCondition';
 // User Profile
 import UserProfile from "../pages/Authentication/user-profile";
 
-import FileManager from "../pages/FileManager";
 import RangeArea from "../pages/Charts/ApexCharts/RangeAreaCharts/Index";
 import FunnelChart from "../pages/Charts/ApexCharts/FunnelCharts/Index";
 import UiLink from "../pages/BaseUi/UiLinks/UiLinks";
 
 const authProtectedRoutes = [
-  { path: "/dashboard-analytics", component: <DashboardAnalytics /> },
-  { path: "/dashboard", component: <DashboardEcommerce /> },
-  { path: "/index", component: <DashboardEcommerce /> },
-  { path: "/dashboard-projects", component: <DashboardProject /> },
   { path: "/apps-calendar", component: <Calendar /> },
   { path: "/apps-ecommerce-products", component: <EcommerceProducts /> },
   { path: "/apps-ecommerce-product-details/:_id", component: <EcommerceProductDetail /> },
@@ -208,33 +173,11 @@ const authProtectedRoutes = [
   { path: "/apps-ecommerce-sellers", component: <EcommerceSellers /> },
   { path: "/apps-ecommerce-seller-details", component: <EcommerceSellerDetail /> },
 
-  { path: "/apps-file-manager", component: <FileManager /> },
-
-  //EMail
-  { path: "/apps-mailbox", component: <MailInbox /> },
-  { path: "/apps-email-basic", component: <BasicAction /> },
-  { path: "/apps-email-ecommerce", component: <EcommerceAction /> },
-
-  //Projects
-  { path: "/apps-projects-list", component: <ProjectList /> },
-  { path: "/apps-projects-overview", component: <ProjectOverview /> },
-  { path: "/apps-projects-create", component: <CreateProject /> },
-
-  //Task
-  { path: "/apps-tasks-list-view", component: <TaskList /> },
-  { path: "/apps-tasks-details", component: <TaskDetails /> },
-
-  //Api Key
-  { path: "/apps-api-key", component: <APIKey /> },
 
   //Invoices
   { path: "/apps-invoices-list", component: <InvoiceList /> },
   { path: "/apps-invoices-details", component: <InvoiceDetails /> },
   { path: "/apps-invoices-create", component: <InvoiceCreate /> },
-
-  //Supports Tickets
-  { path: "/apps-tickets-list", component: <ListView /> },
-  { path: "/apps-tickets-details", component: <TicketsDetails /> },
 
 
   //charts
@@ -305,7 +248,6 @@ const authProtectedRoutes = [
   { path: "/forms-editors", component: <FormEditor /> },
   { path: "/forms-checkboxes-radios", component: <CheckBoxAndRadio /> },
   { path: "/forms-masks", component: <Masks /> },
-  { path: "/forms-file-uploads", component: <FileUpload /> },
   { path: "/forms-pickers", component: <FormPickers /> },
   { path: "/forms-range-sliders", component: <FormRangeSlider /> },
   { path: "/forms-layouts", component: <Formlayouts /> },
@@ -354,9 +296,9 @@ const authProtectedRoutes = [
   {
     path: "/",
     exact: true,
-    component: <Navigate to="/dashboard" />,
+    component: <Navigate to="/Ecommerce" />,
   },
-  { path: "*", component: <Navigate to="/dashboard" /> },
+  { path: "*", component: <Navigate to="/Ecommerce" /> },
 ];
 
 const publicRoutes = [

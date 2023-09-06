@@ -32,7 +32,7 @@ const Timeline = () => {
     SwiperCore.use([FreeMode, Navigation, Thumbs]);
     const [thumbsSwiper] = useState(null);
 
-    document.title = "Timeline | Velzon - React Admin & Dashboard Template";
+    document.title = "Timeline | ระบบจัดการสต็อกสินค้า";
 
     return (
         <React.Fragment>

@@ -142,7 +142,7 @@ const FormSelect = () => {
         setselectedMulti3(selectedMulti3);
     }
 
-    document.title = "Form Select | Velzon - React Admin & Dashboard Template";
+    document.title = "Form Select | ระบบจัดการสต็อกสินค้า";
 
     const customStyles = {
         multiValue: (styles, { data }) => {

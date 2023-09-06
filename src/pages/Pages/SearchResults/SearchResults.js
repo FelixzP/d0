@@ -41,7 +41,7 @@ const SearchResults = () => {
         setDropdownOpen(!dropdownOpen);
     };
 
-document.title="Search Results | Velzon - React Admin & Dashboard Template";
+document.title="Search Results | ระบบจัดการสต็อกสินค้า";
 
     return (
         <React.Fragment>

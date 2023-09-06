@@ -7,7 +7,7 @@
     import { ColorExample, DefaultLinkExample, OffsetExample, OpacityExample, OpacityHoverExample, UtilitiesExample, UtilityOpacityExample } from './UiLinkCode';
 
 const UiLink = () => {
-    document.title = "Link | Velzon - React Admin & Dashboard Template";
+    document.title = "Link | ระบบจัดการสต็อกสินค้า";
     return (
         <React.Fragment>
             <UiContent />

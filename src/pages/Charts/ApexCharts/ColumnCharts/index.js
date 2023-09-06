@@ -21,7 +21,7 @@ import {
 
 
 const ColumnCharts = () => {
-    document.title = "Column Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Column Charts | ระบบจัดการสต็อกสินค้า";
     return (
         <React.Fragment>
             <div className="page-content">

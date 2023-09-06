@@ -5,7 +5,7 @@ import { LineChart ,BarChart,PieChart,DonutChart,PolarChart,RadarChart} from './
 
 
 const ChartsJs = () => {
-    document.title="Charts Js| Velzon - React Admin & Dashboard Template";
+    document.title="Charts Js| ระบบจัดการสต็อกสินค้า";
     return (
         <div className="page-content">
             <Container fluid>

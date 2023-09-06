@@ -10,14 +10,14 @@ import Route from './Routes';
 // import { initFirebaseBackend } from "./helpers/firebase_helper";
 
 // Fake Backend 
-import fakeBackend from "./helpers/AuthType/fakeBackend";
+// import fakeBackend from "./helpers/AuthType/fakeBackend";
 
 // Activating fake backend
-fakeBackend();
+// fakeBackend();
 
 // const firebaseConfig = {
 //   apiKey: process.env.REACT_APP_APIKEY,
-//   authDomain: process.env.REACT_APP_AUTHDOMAIN,
+//   authDomain: process.env.REACT_APP_AUT   HDOMAIN,
 //   databaseURL: process.env.REACT_APP_DATABASEURL,
 //   projectId: process.env.REACT_APP_PROJECTID,
 //   storageBucket: process.env.REACT_APP_STORAGEBUCKET,

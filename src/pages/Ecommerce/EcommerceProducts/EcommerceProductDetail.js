@@ -126,7 +126,7 @@ function EcommerceProductDetail(props) {
     }
   };
 
-document.title ="Product Details | Velzon - React Admin & Dashboard Template";
+document.title ="Product Details | ระบบจัดการสต็อกสินค้า";
   return (
     <div className="page-content">
       <Container fluid>        

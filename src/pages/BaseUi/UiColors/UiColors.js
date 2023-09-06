@@ -8,7 +8,7 @@ import BreadCrumb from '../../../Components/Common/BreadCrumb';
 
 
 const UiColors = () => {
-    document.title = "Colors | Velzon - React Admin & Dashboard Template";
+    document.title = "Colors | ระบบจัดการสต็อกสินค้า";
     return (
         <React.Fragment>
             <UiContent />

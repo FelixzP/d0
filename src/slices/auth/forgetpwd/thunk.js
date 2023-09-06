@@ -4,9 +4,8 @@ import { userForgetPasswordSuccess, userForgetPasswordError } from "./reducer"
 import { getFirebaseBackend } from "../../../helpers/firebase_helper";
 
 import {
-  postFakeForgetPwd,
   postJwtForgetPwd,
-} from "../../../helpers/fakebackend_helper";
+} from "";
 
 const fireBaseBackend = getFirebaseBackend();
 
